@@ -15,6 +15,12 @@ readFile('./hello.txt', 'utf8', (err,txt) =>{ // only runs inside code once the 
 console.log(txt);
 console.log('do this ASAP');
 
+//Reading files with promise based solution
+const { readFile } = require('fs').promises;
+
+async function hello(){
+    const file = await readFile('./hello.txt', utf8);
+}
 
 //How to create an EventEmitter
 const { EventEmitter } = require('events');
