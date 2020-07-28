@@ -1,0 +1,23 @@
+{
+  "name": "BasicNode.JS_Application",
+  "version": "1.0.0",
+  "description": "A very basic node.js application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLTowsen/BasicNode.JS_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BLTowsen/BasicNode.JS_Application/issues"
+  },
+  "homepage": "https://github.com/BLTowsen/BasicNode.JS_Application#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
