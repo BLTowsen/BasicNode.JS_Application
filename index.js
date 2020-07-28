@@ -6,7 +6,7 @@ const { readFile, readFileSync } = require('fs');
 const txt = readFileSync('./hello.txt', 'utf8');
 console.log(txt);
 
-console,log('do this ASAP');
+console.log('do this ASAP');
 
 //Reading a textfile without blocking
 readFile('./hello.txt', 'utf8', (err,txt) =>{ // only runs inside code once the file is read in, also captures if error occurs while reading file in
@@ -16,10 +16,10 @@ console.log(txt);
 console.log('do this ASAP');
 
 //Reading files with promise based solution
-const { readFile } = require('fs').promises;
+const { readFiles } = require('fs').promises;
 
 async function hello(){
-    const file = await readFile('./hello.txt', utf8);
+    const file = await readFiles('./hello.txt', utf8);
 }
 
 //How to create an EventEmitter
